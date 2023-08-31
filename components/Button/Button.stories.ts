@@ -5,7 +5,15 @@ import Button, { ButtonProps } from "./Button"
 const meta: Meta<ButtonProps> = {
     title: 'Molecules/Button',
     component: Button,
-    argTypes: {}
+    argTypes: {
+        children: {
+            type: "string"
+        },
+        disabled: {
+            type: "boolean"
+        },
+        className: {}
+    }
 }
 
 export default meta

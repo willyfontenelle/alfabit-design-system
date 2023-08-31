@@ -1,7 +1,7 @@
 import Button from "@/components/Button/Button"
 
 const App = () => {
-    return <Button>Botãoo</Button>
+    return <Button>Botão</Button>
 }
 
 export default App
